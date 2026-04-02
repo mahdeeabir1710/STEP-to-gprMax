@@ -115,3 +115,10 @@ The voxelisation component was informed by and adapted from ideas in Christian P
 https://github.com/cpederkoff/stl-to-voxel
 
 This work was extended to support STEP assemblies and integration within the broader CAD-to-gprMax workflow.
+
+## Author
+
+Mahdee Abir  
+MEng Mechanical Engineering  
+University of Edinburgh  
+2026
