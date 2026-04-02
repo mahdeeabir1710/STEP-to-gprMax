@@ -68,6 +68,12 @@ If the aim is only to inspect the voxelised geometry, the materials workflow and
 
 See `examples/example_workflow.md` for an example output and a more detailed workflow description.
 
+## Example model
+
+An example STEP CAD model is provided in `test_models/` to demonstrate usage of the framework.
+
+This model can be used to reproduce the voxelisation example shown in the `examples/` directory.
+
 ## Notes
 
 - Confidential CAD models used for validation are not included.
