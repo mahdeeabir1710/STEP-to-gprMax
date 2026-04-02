@@ -8,6 +8,30 @@ This repository contains the source code developed as part of an MEng dissertati
 
 The framework was developed to reduce the manual effort traditionally required to prepare complex engineering geometries for FDTD-based simulation, enabling reproducible conversion of multi-component CAD assemblies into simulation-ready models.
 
+## Quick start
+
+The framework can be run in three simple steps:
+
+1. Install the required Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Set the STEP file path and configure options in:
+
+```text
+src/run_step_to_gprmax.py
+```
+
+3. Run the workflow:
+
+```bash
+python src/run_step_to_gprmax.py
+```
+
+After the first run, the framework will generate the required output folders and a materials CSV template. After defining material properties, running the script again will generate the final gprMax input files.
+
 ## Repository structure
 
 src/step_parser.py  
