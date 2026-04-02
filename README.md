@@ -57,7 +57,16 @@ The main entry point for the workflow is:
 
 python src/run_step_to_gprmax.py
 
-Settings such as file paths, voxel resolution, and workflow options should be configured within the runner script.
+A typical workflow is:
+
+1. Set the STEP file path and configure options in `src/run_step_to_gprmax.py`
+2. Run the script once to generate the initial output folders and materials CSV template
+3. Edit the generated materials CSV and define the required electromagnetic material properties
+4. Run the script again to generate the final gprMax input files
+
+If the aim is only to inspect the voxelised geometry, the materials workflow and gprMax input generation can be disabled and the visualisation options enabled instead.
+
+See `examples/example_workflow.md` for an example output and a more detailed workflow description.
 
 ## Notes
 
