@@ -18,18 +18,29 @@ The figures below show an example engineering assembly and the corresponding vox
 
 The main entry point for the framework is:
 
+```bash
 python src/run_step_to_gprmax.py
+```
 
 A typical workflow is:
 
 1. Set the STEP file path in `run_step_to_gprmax.py`.
+
 2. Configure the required settings, including voxel resolution and output options.
+
+   **STEP export note:**  
+   Due to differences in how CAD software exports STEP assemblies, component names may not always be preserved. When exported from some software, parts may appear with generic identifiers (for example NAUO labels).
+
+   This does not affect voxelisation, material grouping, or simulation preparation. All geometry will still be processed correctly. The only impact is reduced readability when assigning material properties.
+
+   If descriptive component names are required, the STEP file can be opened in FreeCAD and re-exported without modification. This generally preserves assembly naming while requiring no changes to the geometry.
+
 3. If the aim is to prepare a model for gprMax, leave the materials workflow and gprMax input generation enabled.
 4. Run the script once. This creates an output directory containing:
    - `cache/`
    - `gprmax/`
    - `materials/`
-5. Open `materials/materials_grouped.csv` in a CSV editor such as Microsoft Excel.
+5. Open `materials/materials_grouped.csv` (generated after first run) in a CSV editor such as Microsoft Excel.
 6. Fill in the required electromagnetic material properties and material names.
 7. Save the CSV file and run the script again.
 8. The framework then generates:
