@@ -45,9 +45,11 @@ This project was developed in Python. Key dependencies include:
 
 - NumPy
 - h5py
-- PythonOCC / Open Cascade bindings
+- pythonocc-core (Open Cascade Python bindings)
+- PyVista
+- Matplotlib
 
-Additional dependencies may be required depending on the environment.
+A `requirements.txt` file is provided for reference. Some dependencies, particularly PythonOCC, may require environment-specific installation depending on the platform.
 
 ## Usage
 
