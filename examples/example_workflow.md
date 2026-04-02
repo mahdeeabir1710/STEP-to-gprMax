@@ -7,14 +7,14 @@ This folder contains example outputs generated using the STEP-to-gprMax framewor
 The figures below show an example engineering assembly and the corresponding voxelised representation produced using this framework.
 
 ### Original CAD model
-
-![Engine CAD](Engine_CAD.png)
+<p align="center">
+<img src="Engine_CAD.png" width="900">
+</p>
 
 ### Voxelised model
-
-![Engine voxelised](Engine_Voxelised.png)
-
-## Typical workflow
+<p align="center">
+<img src="Engine_Voxelised.png" width="900">
+</p>
 
 The main entry point for the framework is:
 
