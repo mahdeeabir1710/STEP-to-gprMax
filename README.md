@@ -69,4 +69,8 @@ Settings such as file paths, voxel resolution, and workflow options should be co
 
 The overall STEP-to-gprMax framework was developed as part of the associated dissertation project.
 
-The voxelisation component was informed by and adapted from ideas in Christian Pederkoff’s STL-to-voxel work and extended to support STEP assemblies and integration within the broader workflow.
+The voxelisation component was informed by and adapted from ideas in Christian Pederkoff’s STL-to-voxel work:
+
+https://github.com/cpederkoff/stl-to-voxel
+
+This work was extended to support STEP assemblies and integration within the broader CAD-to-gprMax workflow.
