@@ -53,4 +53,4 @@ If the user only wants to inspect the voxelised geometry rather than prepare a g
 
 - The generated `.in` file includes the geometry import setup and a computed simulation domain based on the model bounding box.
 - Source, receiver, and waveform definitions are not added automatically, as these depend on the intended simulation.
-- Once the `.in` file and material definitions have been generated, the remaining simulation setup and execution should follow the standard gprMax workflow.
+- Once the `.in` file and material definitions have been generated, the remaining simulation setup and execution should follow the standard gprMax workflow. See the [gprMax project](https://github.com/gprMax/gprMax) for further details.
