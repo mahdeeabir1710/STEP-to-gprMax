@@ -33,7 +33,7 @@ A typical workflow is:
 
    This does not affect voxelisation, material grouping, or simulation preparation. All geometry will still be processed correctly. The only impact is reduced readability when assigning material properties.
 
-   If descriptive component names are required, the STEP file can be opened in FreeCAD and re-exported without modification. This generally preserves assembly naming while requiring no changes to the geometry.
+   If CAD component names are required, the STEP file can be opened in FreeCAD and re-exported without modification. This generally preserves assembly naming while requiring no changes to the geometry.
 
 3. If the aim is to prepare a model for gprMax, leave the materials workflow and gprMax input generation enabled.
 4. Run the script once. This creates an output directory containing:
