@@ -65,15 +65,15 @@ The framework follows the general sequence:
 
 ## Requirements
 
-This project was developed in Python. Key dependencies include:
+This project was developed and tested using Python 3.11 in a Conda-based scientific Python environment. Key dependencies include:
 
-- NumPy
-- h5py
-- pythonocc-core (Open Cascade Python bindings)
-- PyVista
-- Matplotlib
+NumPy  
+h5py  
+pythonocc-core (Open Cascade Python bindings)  
+PyVista  
+Matplotlib  
 
-A `requirements.txt` file is provided for reference. Some dependencies, particularly PythonOCC, may require environment-specific installation depending on the platform.
+A requirements.txt file is provided listing the required dependencies. Some dependencies, particularly PythonOCC, may require environment-specific installation depending on the platform.
 
 ## Usage
 
