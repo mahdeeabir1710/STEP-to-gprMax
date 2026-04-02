@@ -8,11 +8,11 @@ The figures below show an example engineering assembly and the corresponding vox
 
 ### Original CAD model
 
-![Engine CAD](engine_cad.png)
+![Engine CAD](Engine_CAD.png)
 
 ### Voxelised model
 
-![Engine voxelised](engine_voxelised.png)
+![Engine voxelised](Engine_Voxelised.png)
 
 ## Typical workflow
 
