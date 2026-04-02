@@ -55,7 +55,9 @@ A `requirements.txt` file is provided for reference. Some dependencies, particul
 
 The main entry point for the workflow is:
 
+```bash
 python src/run_step_to_gprmax.py
+```
 
 A typical workflow is:
 
