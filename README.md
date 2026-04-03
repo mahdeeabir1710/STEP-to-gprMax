@@ -105,6 +105,7 @@ This model can be used to reproduce the voxelisation example shown in the `examp
 - Confidential CAD models used for validation are not included.
 - Generated outputs and cached voxel files are excluded.
 - This repository documents the dissertation implementation rather than a packaged software release.
+- The `PARALLEL_SLICES` parameter is reserved for future development. In the current version it is inactive and enabling it has no effect on runtime, output or program behaviour.
 
 ## Acknowledgement of prior work
 
