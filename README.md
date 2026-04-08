@@ -52,6 +52,9 @@ Provides utilities for visualising voxelised results.
 src/run_step_to_gprmax.py  
 Main runner script controlling the overall workflow.
 
+docs/configuration.md  
+Configuration parameter reference.
+
 ## Main workflow
 
 The framework follows the general sequence:
@@ -93,6 +96,8 @@ A typical workflow is:
 If the aim is only to inspect the voxelised geometry, the materials workflow and gprMax input generation can be disabled and the visualisation options enabled instead.
 
 See `examples/example_workflow.md` for an example output and a more detailed workflow description.
+
+Full configuration options are documented in `docs/configuration.md`.
 
 ## Example model
 
