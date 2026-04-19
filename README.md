@@ -116,11 +116,13 @@ This model can be used to reproduce the voxelisation example shown in the `examp
 
 The overall STEP-to-gprMax framework was developed as part of the associated dissertation project.
 
-The voxelisation component was informed by and adapted from ideas in Christian Pederkoff’s STL-to-voxel work:
+The voxelisation component was developed by adapting and extending ideas and implementation patterns from Christian Pederkoff’s open-source STL-to-voxel work:
 
 https://github.com/cpederkoff/stl-to-voxel
 
-This work was extended to support STEP assemblies and integration within the broader CAD-to-gprMax workflow.
+In particular, the slice-based voxelisation approach was informed by that work. For this project, the voxeliser was substantially modified and extended to support STEP-derived geometry, improved robustness, material-aware grid assembly and integration within the broader CAD-to-gprMax workflow.
+
+All other major components of the framework were developed independently as part of this project.
 
 ## Author
 
